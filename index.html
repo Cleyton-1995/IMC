@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="calculadora.png" type="image/x-icon">
+    <title>Cálculo do IMC - Cleyton</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <p>
+            <div class="title">IMC</div>
+            </p>
+            <br>
+            <p><label for="peso">Peso (kg)</label></p>
+            <p><input type="number" name="peso" id="peso" class="peso" placeholder="Digite seu peso" required></p>
+
+            <br>
+
+            <p><label for="altura">Altura (m e cm)</label></p>
+            <p><input type="number" name="altura" id="altura" class="altura" placeholder="Digite sua altura" required></p>
+            <br>
+            <p><button type="button" onclick="calculator()">Calcular</button></p>
+            <p class="resultado"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
